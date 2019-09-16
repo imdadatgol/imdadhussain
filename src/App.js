@@ -10,15 +10,16 @@ import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
 
 
+
 function App() {
   return (
     <div className="App">
       <Header/>
       <About/>
-      <Resume/>
+      <Resume/> 
        <Portfolio/>
        {/* <Testimonials/>  */}
-      <ContactUs/>
+      {/* <ContactUs/> */}
       <Footer/>
 
     </div>

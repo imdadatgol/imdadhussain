@@ -50,9 +50,9 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+      width: 140px;
+      height: 140px;
+      margin-left: 2px;
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
