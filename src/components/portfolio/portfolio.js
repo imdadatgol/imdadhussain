@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
+export default class Portfolio extends Component {
     render() {
         return (
             <React.Fragment>
                 <section id="portfolio">
                     <div className="row">
                         <div className="twelve columns collapsed">
-                            <h1>my On-going  Work.</h1>
+                            <h1><span>On-Going work</span></h1>
+
                             {/* portfolio-wrapper */}
                             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                                 <div className="columns portfolio-item">

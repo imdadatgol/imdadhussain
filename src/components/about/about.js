@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
+export default class About extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            email: 'hussain.imdad004@gmail.com'
+        };
+
+    }
+
     render() {
+
         return (
             <React.Fragment>
                 <section id="about">
@@ -9,20 +18,19 @@ export default class Header extends Component {
                             <img className="profile-pic" src="images/profilepic.jpg" alt="" />
                         </div>
                         <div className="nine columns main-col">
-                            <h2>About Me</h2>
+                            <h1><span>About Me</span></h1>
+
                             <p>Accomplished Mobile Application Developer who is able to create mobile applications for Android & iOS with React-Native. Adept at developing
                             apps based on customer specifications, recommending application changes to make more efficient programs and upgrading existing apps to make
                             them more useful. Specializes in corporate and industrial
                             applications</p>
-                            <div className="row">
+                            <div className="column">
                                 <div className="columns contact-details">
-                                    <h2>Contact Details</h2>
+                                    <h3>Contact Details</h3>
                                     <p className="address">
-                                        <span>Imdad Hussain</span><br />
-                                        <span>
-                                            Islamabad, 44000 Pakistan</span><br />
+                                            Islamabad, Pakistan<br />
                                         <span>+92 311 06666 308</span><br />
-                                        <span>hussain.imdad004@gmail.com</span>
+                                        <a href={"mailto:" + this.state.email}>hussain.imdad004@gmail.com</a>
                                     </p>
                                 </div>
                                 <div className="columns download">
