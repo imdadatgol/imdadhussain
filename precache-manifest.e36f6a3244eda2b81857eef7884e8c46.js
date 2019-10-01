@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72680e6b4c01f93465d4c5093537cd04",
+    "revision": "b736a6a26fbdfb4a0b71bb2dec88fb9e",
     "url": "/imdadhussain/index.html"
   },
   {
-    "revision": "bee0e95dd4c77d0ea525",
+    "revision": "5a7bb640801fdf5476c1",
     "url": "/imdadhussain/static/css/main.2cce8147.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/imdadhussain/static/js/2.1d6e97e5.chunk.js"
   },
   {
-    "revision": "bee0e95dd4c77d0ea525",
-    "url": "/imdadhussain/static/js/main.7ca44114.chunk.js"
+    "revision": "5a7bb640801fdf5476c1",
+    "url": "/imdadhussain/static/js/main.e1a8a837.chunk.js"
   },
   {
     "revision": "48ed7aba3265166ea3bc",
