@@ -11,6 +11,7 @@ import Footer from './components/footer/footer';
 
 
 function App() {
+  console.log("coming here")
   return (
     <div className="App">
       <Header/>
